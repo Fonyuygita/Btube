@@ -11,7 +11,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    height: 50px;
+    height: 100px;
     background-color: #da0d0dd8;
     color: #fff;
     display: flex;
@@ -37,6 +37,13 @@ body {
   .navbar ul li {
     padding: 23px;
   }
+
+  .user{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 45px;
+  }
   
   .navbar ul li a {
     color: #fff;
@@ -49,7 +56,7 @@ body {
   /* Sidebar Styles */
   .sidebar {
     position: fixed;
-    top: 50px;
+    top: 100px;
     left: 0;
     width: 200px;
     height: 100%;
@@ -95,13 +102,15 @@ body {
   
   /* Main Content Styles */
   main {
-    margin-top: 50px;
+    margin-top: 7rem;
     margin-left: 200px; /* Adjust this value to match sidebar width */
     padding: 20px;
   }
   
   .search-bar {
     margin-bottom: 20px;
+    margin-left: 70px;
+      /* Adjust this value to match sidebar width */
   }
   
   .search-bar input[type="text"] {
@@ -119,8 +128,11 @@ body {
   
   .video-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: repeat(3, 1fr); */
+     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 20px;
+    width: 90%;
+    margin: 0 auto;
   }
   
   .video-card {
@@ -134,13 +146,53 @@ body {
   }
   
   .visit-button {
-    display: block;
+    display: inline-flex;
     margin-top:10px;
     padding: 5px 10px;
     background-color: #e90b0b;
     color: #fff;
     text-decoration: none;
     text-align: center;
+    font-size: 16px;
+    
   }
   
   /* Add more CSS styles as needed */
+
+
+  @media (max-width:780px){
+  
+    .sidebar{
+      display: none;
+    }
+    main{
+      margin-left: 11px;
+    }
+    .navbar ul{
+      display: none;
+    }
+    a{
+      font-size: 17px;
+    }
+    .onMobile{
+      display: flex;
+      flex-direction: column;
+      height: 340px;
+    background-color: #da0d0dd8;
+      animation: slideIn 1s linear alternate;
+      transition:  all 400ms ease-in-out;
+      position: fixed;
+      top: 100px;
+      color: wheat;
+
+    }
+
+    @keyframes slideIn{
+      from{
+        left: -50%;
+      }
+      to{
+        left: 0%;
+      }
+    }
+  }
