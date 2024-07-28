@@ -20,9 +20,14 @@ body {
     padding: 0 20px;
     
   }
+  .navbar ul li a:hover{
+    border-bottom: 1.5px solid #fff;
+    transition: all 0.3s ease;
+  }
   
   .navbar h1 {
     margin-left: 23px;
+    cursor: pointer;
   }
   
   .navbar ul {
