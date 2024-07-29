@@ -115,12 +115,17 @@ body {
   .search-bar {
     margin-bottom: 20px;
     margin-left: 70px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+  
       /* Adjust this value to match sidebar width */
   }
   
   .search-bar input[type="text"] {
     padding: 5px;
-    width: 200px;
+    width: 80%;
+
   }
   
   .search-bar button {
@@ -129,6 +134,7 @@ body {
     color: #fff;
     border: none;
     cursor: pointer;
+    border-radius: 7px;
   }
   
   .video-grid {
