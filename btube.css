@@ -138,16 +138,32 @@ main {
   grid-gap: 20px;
   width: 90%;
   margin: 0 auto;
+  
 }
 
 .video-card {
   border: 1px solid #ccc;
   padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 1);
+  cursor: pointer;
+  transition: transform 0.3s ease;
 }
+/* hover effect for card */
+.video-card:hover{
+  transform: scale(1.05);
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
 
+}
 .video-card img {
   width: 100%;
   height: auto;
+  border-radius: 10px 10px 0 0;
+  transition: transform 0.3s ease;
+}
+/* hover effect for image */
+.video-card:hover img {
+  transform: scale(1.06);
 }
 
 .visit-button {
