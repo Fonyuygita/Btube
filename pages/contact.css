@@ -1,0 +1,187 @@
+.container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -4rem;
+    padding: 50px;
+}
+
+.container .left {
+    width: 100vw;
+    gap: 20px;
+}
+
+/* top section header 1 and p */
+p {
+    width: 70%;
+    margin-top: -1rem;
+    font-size: 20px;
+    font-family: Poppins;
+}
+
+.left .top {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+/* emails */
+.left .email {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.email a {
+    text-decoration: none;
+    color: #111;
+    font-weight: bol;
+}
+
+.left .socials {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+}
+
+.socials .links {
+    display: flex;
+    gap: 10px;
+
+}
+
+.left .socials a {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #da0d0dd8;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.socials img {
+    width: 40px;
+    height: 40px;
+}
+
+.container .right {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 8rem;
+}
+
+.right input {
+    padding: 10px;
+    width: 70%;
+    margin-top: -20px;
+    font-size: 20px;
+    font-family: Poppins;
+
+}
+
+.right textarea {
+    width: 70%;
+    height: 200px;
+    margin-top: -20px;
+    font-size: 16px;
+    font-family: Poppins;
+    font-size: 20px;
+
+}
+
+label {
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: bold;
+}
+
+button {
+    width: 150px;
+    padding: 10px;
+    background-color: #da0d0dd8;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    font-family: Noe Display;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+h1 {
+    font-family: Noe Display;
+    font-weight: bold;
+    font-size: 4rem;
+
+}
+
+h2 {
+    font-family: Noe Display;
+    font-weight: bold;
+    font-size: 2rem;
+
+}
+
+@media (max-width:780px) {
+    .container {
+        flex-direction: column;
+        /* gap: 10px; */
+        /* width: 100%; */
+        padding-left: 20px;
+
+    }
+
+    .top p {
+        width: 90%;
+        margin-top: -1rem;
+        font-size: 20px;
+        font-family: Poppins;
+        text-align: center;
+    }
+
+    h1 {
+        text-align: center;
+        margin-left: 3rem;
+    }
+
+    .top {
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+    .left {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        padding-left: 3rem;
+        height: 100%;
+
+    }
+
+    .right {
+        justify-content: center;
+        gap: 20px;
+        margin-top: -20rem;
+        height: 100%;
+    }
+
+    .right textarea {
+        width: 100%;
+        height: 200px;
+        margin-top: -20px;
+
+    }
+
+    .right input {
+        width: 100%;
+    }
+
+}
