@@ -1,3 +1,4 @@
+
 /* General Styles */
 body {
     margin: 0;
@@ -109,13 +110,17 @@ body {
   
   .search-bar {
     margin-bottom: 20px;
-    margin-left: 70px;
+   
+    display: flex;
+    align-items: center;
+    gap: 1px;
+    justify-content: center;
       /* Adjust this value to match sidebar width */
   }
   
   .search-bar input[type="text"] {
-    padding: 5px;
-    width: 200px;
+    padding: 3px;
+    width: 120px;
   }
   
   .search-bar button {
