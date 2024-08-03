@@ -179,6 +179,38 @@ main {
 }
 
 /* Add more CSS styles as needed */
+.interactions{
+  display: flex;
+  margin-top: 20px;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.like-btn,.dislike-btn,.comment-btn{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: transform 0.2s ease;
+}
+
+.like-btn:hover,.dislike-btn:hover,.comment-btn:hover{
+  transform: scale(1.05);
+}
+
+.like-btn i{
+  color: #0d6efd;
+}
+
+.dislike-btn i{
+  color: #dc3545;
+}
+
+.comment-btn i{
+  color: #6610f2;
+}
+
+
 .history {
   display: flex;
   width: 100%;
