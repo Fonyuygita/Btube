@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* General Styles */
 body {
     margin: 0;
@@ -196,6 +197,9 @@ body {
         left: 0%;
       }
     }
+=======
+
+>>>>>>> upstream/master
 /* General Styles */
 body {
     margin: 0;
@@ -218,14 +222,9 @@ body {
     padding: 0 20px;
     
   }
-  .navbar ul li a:hover{
-    border-bottom: 1.5px solid #fff;
-    transition: all 0.3s ease;
-  }
   
   .navbar h1 {
     margin-left: 23px;
-    cursor: pointer;
   }
   
   .navbar ul {
@@ -312,13 +311,17 @@ body {
   
   .search-bar {
     margin-bottom: 20px;
-    margin-left: 70px;
+   
+    display: flex;
+    align-items: center;
+    gap: 1px;
+    justify-content: center;
       /* Adjust this value to match sidebar width */
   }
   
   .search-bar input[type="text"] {
-    padding: 5px;
-    width: 200px;
+    padding: 3px;
+    width: 120px;
   }
   
   .search-bar button {
@@ -398,5 +401,4 @@ body {
         left: 0%;
       }
     }
->>>>>>> 7e52713fe2282c235ef818b4c40645824c0c183a
   }
