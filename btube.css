@@ -19,7 +19,6 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
-    
   }
   
   .navbar h1 {
@@ -36,7 +35,7 @@ body {
   }
   
   .navbar ul li {
-    padding: 23px;
+    padding: 0px;
   }
 
   .user{
@@ -48,11 +47,22 @@ body {
   
   .navbar ul li a {
     color: #fff;
-    text-decoration: none;
     margin-right: 53px;
-    font-size: 14px;
-    
+    font-size: 15px;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #f44336;
+    padding: 14px 25px;
+    text-align: center;
+
+    /* border: 2px solid white;
+    transition: all 1s ease-in; */
   }
+
+  .navbar ul li a:hover{
+    transform: scale(1.1);
+  }
+
   
   /* Sidebar Styles */
   .sidebar {
