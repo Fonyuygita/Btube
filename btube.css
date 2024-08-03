@@ -187,7 +187,7 @@ body {
       color: wheat;
 
     }
-
+  }
     @keyframes slideIn{
       from{
         left: -50%;
@@ -196,7 +196,6 @@ body {
         left: 0%;
       }
     }
-=======
 /* General Styles */
 body {
     margin: 0;

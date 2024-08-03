@@ -1,0 +1,91 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e7d8d8;
+}
+
+.container {
+    width: 50%;
+    background-color:  #da0d0dd8;
+    margin-top: 15rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+    border-radius: 8px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.leftSide {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+
+}
+
+.leftSide input {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    color: black;
+    background-color: #e7d8d8;
+}
+
+.leftSide .emailPhone {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.box input {
+    margin-top: 5px;
+
+
+}
+
+.leftSide #message {
+    height: 100px;
+    border-radius: 8px;
+    background-color: #e7d8d8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.message {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    outline: none;
+    border: none;
+}
+
+.leftSide button {
+    width: 100px;
+    padding: 6px;
+    border-radius: 12px;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    background-color:  #e7d8d8;
+    color: black;
+}
+
+.container .rightSide {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.rightSide p {
+    margin-top: -12px;
+}
+
+/* .container p, label{
+    color: #69807e;
+} */
