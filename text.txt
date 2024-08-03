@@ -1,0 +1,3 @@
+square-x-twitter-brands-solid.svg 
+google-brands-solid.svg
+facebook-brands-solid.svg
