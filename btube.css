@@ -161,6 +161,18 @@ body {
     font-size: 16px;
     
   }
+
+  /* Added a logo by Fvour Deoum */
+  .btubelogo{
+    width: 13rem;
+    height: 8rem;
+    margin-top: -1.5rem;
+  }
+  .arrow{
+    /* width: 5rem;
+    height: 5rem; */
+    display: none;
+  }
   
   /* Add more CSS styles as needed */
 
@@ -190,6 +202,17 @@ body {
       top: 100px;
       color: wheat;
 
+    }
+
+    /* Added by Favour Deoum */
+    .arrow{
+      display: flex;
+      position: fixed;
+      bottom: 20px;
+      left: 50px;
+      width: 2rem;
+      height: 2rem;
+      cursor: pointer;
     }
 
     @keyframes slideIn{
